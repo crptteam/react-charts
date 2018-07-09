@@ -1,0 +1,1297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Charts Should renders without problems 1`] = `
+<Charts
+  child={null}
+  description="100% - нанесенные коды маркировки"
+  getValueLabelClick={[Function]}
+  graph={
+    Array [
+      Object {
+        "activeDot": Object {
+          "r": 5,
+          "stroke": "#1a99f4",
+          "strokeWidth": 0,
+        },
+        "key": "box",
+        "name": "Короб",
+        "stroke": "#f6cc6b",
+        "strokeWidth": 2,
+        "svg": <svg
+          fill="black"
+          viewBox="0 0 409.6 405.76"
+        >
+          <path
+            d="M682.8,396.06c50.72,0,91.84-48.13,91.84-107.49,0-82.33-41.12-107.49-91.84-107.49S591,206.24,591,288.57c0,59.36,41.12,107.49,91.84,107.49Zm0,0"
+            transform="translate(-478 -181.08)"
+          />
+          <path
+            d="M885.6,554.28,839.27,449.9a23.3,23.3,0,0,0-10.48-11.15l-71.91-37.43a4.66,4.66,0,0,0-4.93.41,113.41,113.41,0,0,1-138.3,0,4.67,4.67,0,0,0-4.94-.41l-71.9,37.43a23.24,23.24,0,0,0-10.47,11.15L480,554.28a23.16,23.16,0,0,0,21.18,32.56H864.42a23.17,23.17,0,0,0,21.18-32.56Zm0,0"
+            transform="translate(-478 -181.08)"
+          />
+        </svg>,
+        "type": "monotone",
+      },
+      Object {
+        "activeDot": Object {
+          "r": 5,
+          "stroke": "#1a99f4",
+          "strokeWidth": 0,
+        },
+        "key": "blk",
+        "name": "Блок",
+        "stroke": "#fc7752",
+        "strokeWidth": 2,
+        "type": "natural",
+      },
+      Object {
+        "activeDot": Object {
+          "r": 5,
+          "stroke": "#1a99f4",
+          "strokeWidth": 0,
+        },
+        "key": "cis",
+        "name": "Пачка",
+        "stroke": "#7555ae",
+        "strokeWidth": 2,
+        "type": "linear",
+      },
+    ]
+  }
+  precentBar={
+    Array [
+      Object {
+        "cnt": 0,
+        "name": "Реализованные",
+        "percent": 0,
+      },
+      Object {
+        "cnt": 10,
+        "name": "В обороте",
+        "percent": 58.8,
+      },
+      Object {
+        "childs": Array [
+          Object {
+            "cnt": 0,
+            "name": "Порча товара",
+            "percent": 0,
+          },
+          Object {
+            "cnt": 0,
+            "name": "Хищение товара",
+            "percent": 0,
+          },
+          Object {
+            "cnt": 0,
+            "name": "Отбор контрольных образцов",
+            "percent": 0,
+          },
+          Object {
+            "cnt": 0,
+            "name": "Демонстрация на выставках и ярмарках",
+            "percent": 0,
+          },
+          Object {
+            "cnt": 54,
+            "name": "Иное",
+            "percent": 317.6,
+          },
+        ],
+        "cnt": 54,
+        "name": "Списанные",
+        "percent": 317.6,
+      },
+    ]
+  }
+  title="Коды маркировки"
+  tooltipData={
+    Array [
+      Object {
+        "blk": 12,
+        "box": 5,
+        "cis": 17,
+        "dt": "2018-06-23",
+      },
+      Object {
+        "blk": 2,
+        "box": 15,
+        "cis": 9,
+        "dt": "2018-06-25",
+      },
+      Object {
+        "blk": 18,
+        "box": 5,
+        "cis": 15,
+        "dt": "2018-06-26",
+      },
+      Object {
+        "blk": 10,
+        "box": 3,
+        "cis": 12,
+        "dt": "2018-06-27",
+      },
+      Object {
+        "blk": 3,
+        "box": 1,
+        "cis": 5,
+        "dt": "2018-06-28",
+      },
+    ]
+  }
+>
+  <CardLine>
+    <div
+      className="CardLine-khOpAb ifLoNa"
+    >
+      <WithTheme(Card)>
+        <Card
+          theme={
+            Object {
+              "Card": Object {
+                "background": "#FFFFFF",
+                "paddingBottom": "40px",
+                "paddingLeft": "32px",
+                "paddingRight": "32px",
+                "paddingTop": "32px",
+              },
+            }
+          }
+        >
+          <CardWrap
+            theme={
+              Object {
+                "Card": Object {
+                  "background": "#FFFFFF",
+                  "paddingBottom": "40px",
+                  "paddingLeft": "32px",
+                  "paddingRight": "32px",
+                  "paddingTop": "32px",
+                },
+              }
+            }
+          >
+            <CardWrap__Elem
+              background="#FFFFFF"
+              paddingBottom="40px"
+              paddingLeft="32px"
+              paddingRight="32px"
+              paddingTop="32px"
+              theme={
+                Object {
+                  "Card": Object {
+                    "background": "#FFFFFF",
+                    "paddingBottom": "40px",
+                    "paddingLeft": "32px",
+                    "paddingRight": "32px",
+                    "paddingTop": "32px",
+                  },
+                }
+              }
+            >
+              <div
+                className="CardWrap__Elem-FiUdO WGwCn"
+              >
+                <CardLine>
+                  <div
+                    className="CardLine-khOpAb ifLoNa"
+                  >
+                    <Charts__Title>
+                      <h4
+                        className="Charts__Title-licdXF ihjPnJ"
+                      >
+                        Коды маркировки
+                      </h4>
+                    </Charts__Title>
+                  </div>
+                </CardLine>
+                <WithTheme(Container)
+                  gutter={16}
+                  justify="stretch"
+                >
+                  <Container
+                    gutter={16}
+                    justify="stretch"
+                  >
+                    <OuterContainer
+                      gutter={16}
+                      justify="stretch"
+                    >
+                      <OuterContainer__Elem
+                        gutter={16}
+                        justify="stretch"
+                      >
+                        <div
+                          className="OuterContainer__Elem-gkmlIm jMRVsI"
+                        >
+                          <WithTheme(Column)
+                            col={16}
+                            first={true}
+                            gutter={16}
+                            key=".0"
+                            last={false}
+                          >
+                            <Column
+                              col={16}
+                              first={true}
+                              gutter={16}
+                              last={false}
+                            >
+                              <OuterColumn
+                                col={16}
+                                first={true}
+                                gutter={16}
+                                last={false}
+                              >
+                                <OuterColumn__Elem
+                                  col={16}
+                                  first={true}
+                                  gutter={16}
+                                  last={false}
+                                >
+                                  <div
+                                    className="OuterColumn__Elem-jhHCvW fQhVDN"
+                                  >
+                                    <InnerColumn__Inner>
+                                      <div
+                                        className="InnerColumn__Inner-cCypcN hsATVs"
+                                      >
+                                        <Graph
+                                          getValueLabelClick={[Function]}
+                                          graph={
+                                            Array [
+                                              Object {
+                                                "activeDot": Object {
+                                                  "r": 5,
+                                                  "stroke": "#1a99f4",
+                                                  "strokeWidth": 0,
+                                                },
+                                                "key": "box",
+                                                "name": "Короб",
+                                                "stroke": "#f6cc6b",
+                                                "strokeWidth": 2,
+                                                "svg": <svg
+                                                  fill="black"
+                                                  viewBox="0 0 409.6 405.76"
+                                                >
+                                                  <path
+                                                    d="M682.8,396.06c50.72,0,91.84-48.13,91.84-107.49,0-82.33-41.12-107.49-91.84-107.49S591,206.24,591,288.57c0,59.36,41.12,107.49,91.84,107.49Zm0,0"
+                                                    transform="translate(-478 -181.08)"
+                                                  />
+                                                  <path
+                                                    d="M885.6,554.28,839.27,449.9a23.3,23.3,0,0,0-10.48-11.15l-71.91-37.43a4.66,4.66,0,0,0-4.93.41,113.41,113.41,0,0,1-138.3,0,4.67,4.67,0,0,0-4.94-.41l-71.9,37.43a23.24,23.24,0,0,0-10.47,11.15L480,554.28a23.16,23.16,0,0,0,21.18,32.56H864.42a23.17,23.17,0,0,0,21.18-32.56Zm0,0"
+                                                    transform="translate(-478 -181.08)"
+                                                  />
+                                                </svg>,
+                                                "type": "monotone",
+                                              },
+                                              Object {
+                                                "activeDot": Object {
+                                                  "r": 5,
+                                                  "stroke": "#1a99f4",
+                                                  "strokeWidth": 0,
+                                                },
+                                                "key": "blk",
+                                                "name": "Блок",
+                                                "stroke": "#fc7752",
+                                                "strokeWidth": 2,
+                                                "type": "natural",
+                                              },
+                                              Object {
+                                                "activeDot": Object {
+                                                  "r": 5,
+                                                  "stroke": "#1a99f4",
+                                                  "strokeWidth": 0,
+                                                },
+                                                "key": "cis",
+                                                "name": "Пачка",
+                                                "stroke": "#7555ae",
+                                                "strokeWidth": 2,
+                                                "type": "linear",
+                                              },
+                                            ]
+                                          }
+                                          tooltipData={
+                                            Array [
+                                              Object {
+                                                "blk": 12,
+                                                "box": 5,
+                                                "cis": 17,
+                                                "dt": "2018-06-23",
+                                              },
+                                              Object {
+                                                "blk": 2,
+                                                "box": 15,
+                                                "cis": 9,
+                                                "dt": "2018-06-25",
+                                              },
+                                              Object {
+                                                "blk": 18,
+                                                "box": 5,
+                                                "cis": 15,
+                                                "dt": "2018-06-26",
+                                              },
+                                              Object {
+                                                "blk": 10,
+                                                "box": 3,
+                                                "cis": 12,
+                                                "dt": "2018-06-27",
+                                              },
+                                              Object {
+                                                "blk": 3,
+                                                "box": 1,
+                                                "cis": 5,
+                                                "dt": "2018-06-28",
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <div>
+                                            <Legend
+                                              activeGraph={
+                                                Object {
+                                                  "blk": Object {
+                                                    "active": true,
+                                                  },
+                                                  "box": Object {
+                                                    "active": true,
+                                                  },
+                                                  "cis": Object {
+                                                    "active": true,
+                                                  },
+                                                }
+                                              }
+                                              graph={
+                                                Array [
+                                                  Object {
+                                                    "activeDot": Object {
+                                                      "r": 5,
+                                                      "stroke": "#1a99f4",
+                                                      "strokeWidth": 0,
+                                                    },
+                                                    "key": "box",
+                                                    "name": "Короб",
+                                                    "stroke": "#f6cc6b",
+                                                    "strokeWidth": 2,
+                                                    "svg": <svg
+                                                      fill="black"
+                                                      viewBox="0 0 409.6 405.76"
+                                                    >
+                                                      <path
+                                                        d="M682.8,396.06c50.72,0,91.84-48.13,91.84-107.49,0-82.33-41.12-107.49-91.84-107.49S591,206.24,591,288.57c0,59.36,41.12,107.49,91.84,107.49Zm0,0"
+                                                        transform="translate(-478 -181.08)"
+                                                      />
+                                                      <path
+                                                        d="M885.6,554.28,839.27,449.9a23.3,23.3,0,0,0-10.48-11.15l-71.91-37.43a4.66,4.66,0,0,0-4.93.41,113.41,113.41,0,0,1-138.3,0,4.67,4.67,0,0,0-4.94-.41l-71.9,37.43a23.24,23.24,0,0,0-10.47,11.15L480,554.28a23.16,23.16,0,0,0,21.18,32.56H864.42a23.17,23.17,0,0,0,21.18-32.56Zm0,0"
+                                                        transform="translate(-478 -181.08)"
+                                                      />
+                                                    </svg>,
+                                                    "type": "monotone",
+                                                  },
+                                                  Object {
+                                                    "activeDot": Object {
+                                                      "r": 5,
+                                                      "stroke": "#1a99f4",
+                                                      "strokeWidth": 0,
+                                                    },
+                                                    "key": "blk",
+                                                    "name": "Блок",
+                                                    "stroke": "#fc7752",
+                                                    "strokeWidth": 2,
+                                                    "type": "natural",
+                                                  },
+                                                  Object {
+                                                    "activeDot": Object {
+                                                      "r": 5,
+                                                      "stroke": "#1a99f4",
+                                                      "strokeWidth": 0,
+                                                    },
+                                                    "key": "cis",
+                                                    "name": "Пачка",
+                                                    "stroke": "#7555ae",
+                                                    "strokeWidth": 2,
+                                                    "type": "linear",
+                                                  },
+                                                ]
+                                              }
+                                              handlerClickLabel={[Function]}
+                                            >
+                                              <Legend__Wrap>
+                                                <div
+                                                  className="Legend__Wrap-eWDgav iHyYue"
+                                                >
+                                                  <Legend__CircleItem
+                                                    color="#f6cc6b"
+                                                    isActive={true}
+                                                    key="box"
+                                                    onClick={[Function]}
+                                                    svg={
+                                                      <svg
+                                                        fill="black"
+                                                        viewBox="0 0 409.6 405.76"
+                                                      >
+                                                        <path
+                                                          d="M682.8,396.06c50.72,0,91.84-48.13,91.84-107.49,0-82.33-41.12-107.49-91.84-107.49S591,206.24,591,288.57c0,59.36,41.12,107.49,91.84,107.49Zm0,0"
+                                                          transform="translate(-478 -181.08)"
+                                                        />
+                                                        <path
+                                                          d="M885.6,554.28,839.27,449.9a23.3,23.3,0,0,0-10.48-11.15l-71.91-37.43a4.66,4.66,0,0,0-4.93.41,113.41,113.41,0,0,1-138.3,0,4.67,4.67,0,0,0-4.94-.41l-71.9,37.43a23.24,23.24,0,0,0-10.47,11.15L480,554.28a23.16,23.16,0,0,0,21.18,32.56H864.42a23.17,23.17,0,0,0,21.18-32.56Zm0,0"
+                                                          transform="translate(-478 -181.08)"
+                                                        />
+                                                      </svg>
+                                                    }
+                                                  >
+                                                    <span
+                                                      className="Legend__CircleItem-caOvGL cAVRWD"
+                                                      color="#f6cc6b"
+                                                      onClick={[Function]}
+                                                    >
+                                                      <svg
+                                                        fill="black"
+                                                        viewBox="0 0 409.6 405.76"
+                                                      >
+                                                        <path
+                                                          d="M682.8,396.06c50.72,0,91.84-48.13,91.84-107.49,0-82.33-41.12-107.49-91.84-107.49S591,206.24,591,288.57c0,59.36,41.12,107.49,91.84,107.49Zm0,0"
+                                                          transform="translate(-478 -181.08)"
+                                                        />
+                                                        <path
+                                                          d="M885.6,554.28,839.27,449.9a23.3,23.3,0,0,0-10.48-11.15l-71.91-37.43a4.66,4.66,0,0,0-4.93.41,113.41,113.41,0,0,1-138.3,0,4.67,4.67,0,0,0-4.94-.41l-71.9,37.43a23.24,23.24,0,0,0-10.47,11.15L480,554.28a23.16,23.16,0,0,0,21.18,32.56H864.42a23.17,23.17,0,0,0,21.18-32.56Zm0,0"
+                                                          transform="translate(-478 -181.08)"
+                                                        />
+                                                      </svg>
+                                                    </span>
+                                                  </Legend__CircleItem>
+                                                  <Legend__CircleItem
+                                                    color="#fc7752"
+                                                    isActive={true}
+                                                    key="blk"
+                                                    onClick={[Function]}
+                                                  >
+                                                    <span
+                                                      className="Legend__CircleItem-caOvGL bFnmuv"
+                                                      color="#fc7752"
+                                                      onClick={[Function]}
+                                                    >
+                                                      Блок
+                                                    </span>
+                                                  </Legend__CircleItem>
+                                                  <Legend__CircleItem
+                                                    color="#7555ae"
+                                                    isActive={true}
+                                                    key="cis"
+                                                    onClick={[Function]}
+                                                  >
+                                                    <span
+                                                      className="Legend__CircleItem-caOvGL fSAoI"
+                                                      color="#7555ae"
+                                                      onClick={[Function]}
+                                                    >
+                                                      Пачка
+                                                    </span>
+                                                  </Legend__CircleItem>
+                                                </div>
+                                              </Legend__Wrap>
+                                            </Legend>
+                                            <ResponsiveContainer
+                                              debounce={0}
+                                              height={350}
+                                              width="100%"
+                                            >
+                                              <div
+                                                className="recharts-responsive-container"
+                                                style={
+                                                  Object {
+                                                    "height": 350,
+                                                    "maxHeight": undefined,
+                                                    "minHeight": undefined,
+                                                    "minWidth": undefined,
+                                                    "width": "100%",
+                                                  }
+                                                }
+                                              >
+                                                <LineChart
+                                                  barCategoryGap="10%"
+                                                  barGap={4}
+                                                  data={
+                                                    Array [
+                                                      Object {
+                                                        "blk": 12,
+                                                        "box": 5,
+                                                        "cis": 17,
+                                                        "dt": "2018-06-23",
+                                                      },
+                                                      Object {
+                                                        "blk": 2,
+                                                        "box": 15,
+                                                        "cis": 9,
+                                                        "dt": "2018-06-25",
+                                                      },
+                                                      Object {
+                                                        "blk": 18,
+                                                        "box": 5,
+                                                        "cis": 15,
+                                                        "dt": "2018-06-26",
+                                                      },
+                                                      Object {
+                                                        "blk": 10,
+                                                        "box": 3,
+                                                        "cis": 12,
+                                                        "dt": "2018-06-27",
+                                                      },
+                                                      Object {
+                                                        "blk": 3,
+                                                        "box": 1,
+                                                        "cis": 5,
+                                                        "dt": "2018-06-28",
+                                                      },
+                                                    ]
+                                                  }
+                                                  height={350}
+                                                  layout="horizontal"
+                                                  margin={
+                                                    Object {
+                                                      "bottom": 5,
+                                                      "left": 5,
+                                                      "right": 5,
+                                                      "top": 5,
+                                                    }
+                                                  }
+                                                  reverseStackOrder={false}
+                                                  stackOffset="none"
+                                                  width={0}
+                                                />
+                                                <ResizeDetector
+                                                  handleHeight={true}
+                                                  handleWidth={true}
+                                                  onResize={[Function]}
+                                                >
+                                                  <div
+                                                    style={
+                                                      Object {
+                                                        "bottom": 0,
+                                                        "left": 0,
+                                                        "overflow": "hidden",
+                                                        "position": "absolute",
+                                                        "right": 0,
+                                                        "top": 0,
+                                                        "visibility": "hidden",
+                                                        "zIndex": -1,
+                                                      }
+                                                    }
+                                                  >
+                                                    <div
+                                                      onScroll={[Function]}
+                                                      style={
+                                                        Object {
+                                                          "bottom": 0,
+                                                          "left": 0,
+                                                          "overflow": "hidden",
+                                                          "position": "absolute",
+                                                          "right": 0,
+                                                          "top": 0,
+                                                          "visibility": "hidden",
+                                                          "zIndex": -1,
+                                                        }
+                                                      }
+                                                    >
+                                                      <div
+                                                        style={
+                                                          Object {
+                                                            "height": 10,
+                                                            "left": 0,
+                                                            "position": "absolute",
+                                                            "top": 0,
+                                                            "width": 10,
+                                                          }
+                                                        }
+                                                      />
+                                                    </div>
+                                                    <div
+                                                      onScroll={[Function]}
+                                                      style={
+                                                        Object {
+                                                          "bottom": 0,
+                                                          "left": 0,
+                                                          "overflow": "hidden",
+                                                          "position": "absolute",
+                                                          "right": 0,
+                                                          "top": 0,
+                                                          "visibility": "hidden",
+                                                          "zIndex": -1,
+                                                        }
+                                                      }
+                                                    >
+                                                      <div
+                                                        style={
+                                                          Object {
+                                                            "height": "200%",
+                                                            "left": 0,
+                                                            "position": "absolute",
+                                                            "top": 0,
+                                                            "width": "200%",
+                                                          }
+                                                        }
+                                                      />
+                                                    </div>
+                                                  </div>
+                                                </ResizeDetector>
+                                              </div>
+                                            </ResponsiveContainer>
+                                          </div>
+                                        </Graph>
+                                      </div>
+                                    </InnerColumn__Inner>
+                                  </div>
+                                </OuterColumn__Elem>
+                              </OuterColumn>
+                            </Column>
+                          </WithTheme(Column)>
+                          <WithTheme(Column)
+                            col={8}
+                            first={false}
+                            gutter={16}
+                            key=".1"
+                            last={true}
+                          >
+                            <Column
+                              col={8}
+                              first={false}
+                              gutter={16}
+                              last={true}
+                            >
+                              <OuterColumn
+                                col={8}
+                                first={false}
+                                gutter={16}
+                                last={true}
+                              >
+                                <OuterColumn__Elem
+                                  col={8}
+                                  first={false}
+                                  gutter={16}
+                                  last={true}
+                                >
+                                  <div
+                                    className="OuterColumn__Elem-jhHCvW dLoqse"
+                                  >
+                                    <InnerColumn__Inner>
+                                      <div
+                                        className="InnerColumn__Inner-cCypcN hsATVs"
+                                      >
+                                        <Charts__Description>
+                                          <span
+                                            className="Charts__Description-jgTuvF gRzKaF"
+                                          >
+                                            100% - нанесенные коды маркировки
+                                          </span>
+                                        </Charts__Description>
+                                        <PrecentBar
+                                          precentBar={
+                                            Array [
+                                              Object {
+                                                "cnt": 0,
+                                                "name": "Реализованные",
+                                                "percent": 0,
+                                              },
+                                              Object {
+                                                "cnt": 10,
+                                                "name": "В обороте",
+                                                "percent": 58.8,
+                                              },
+                                              Object {
+                                                "childs": Array [
+                                                  Object {
+                                                    "cnt": 0,
+                                                    "name": "Порча товара",
+                                                    "percent": 0,
+                                                  },
+                                                  Object {
+                                                    "cnt": 0,
+                                                    "name": "Хищение товара",
+                                                    "percent": 0,
+                                                  },
+                                                  Object {
+                                                    "cnt": 0,
+                                                    "name": "Отбор контрольных образцов",
+                                                    "percent": 0,
+                                                  },
+                                                  Object {
+                                                    "cnt": 0,
+                                                    "name": "Демонстрация на выставках и ярмарках",
+                                                    "percent": 0,
+                                                  },
+                                                  Object {
+                                                    "cnt": 54,
+                                                    "name": "Иное",
+                                                    "percent": 317.6,
+                                                  },
+                                                ],
+                                                "cnt": 54,
+                                                "name": "Списанные",
+                                                "percent": 317.6,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <PrecentBar__Wrap
+                                            key="0"
+                                          >
+                                            <div
+                                              className="PrecentBar__Wrap-iBaPQw kxQzfD"
+                                            >
+                                              <WithTheme(PercentBar)
+                                                count={0}
+                                                title="Реализованные"
+                                                value={0}
+                                                values={null}
+                                              >
+                                                <PercentBar
+                                                  count={0}
+                                                  theme={
+                                                    Object {
+                                                      "PercentBar": Object {
+                                                        "Background": Object {
+                                                          "background": "#cde6f9",
+                                                        },
+                                                        "Bar": Object {
+                                                          "background": "#1a99f4",
+                                                          "color": "#ffffff",
+                                                          "fontSize": "10px",
+                                                          "fontWeight": "bold",
+                                                        },
+                                                        "Heading": Object {
+                                                          "LeftPart": Object {
+                                                            "color": "#000000",
+                                                            "fontSize": "10px",
+                                                            "fontWeight": "bold",
+                                                          },
+                                                          "RightPart": Object {
+                                                            "color": "#1a99f4",
+                                                            "fontSize": "10px",
+                                                            "fontWeight": "bold",
+                                                          },
+                                                          "color": "#000000",
+                                                          "fontSize": "11px",
+                                                          "fontWeight": "normal",
+                                                        },
+                                                        "Label": Object {
+                                                          "background": "#1a99f4",
+                                                          "color": "#ffffff",
+                                                          "fontSize": "10px",
+                                                          "fontWeight": "normal",
+                                                        },
+                                                      },
+                                                    }
+                                                  }
+                                                  title="Реализованные"
+                                                  value={0}
+                                                  values={null}
+                                                >
+                                                  <div>
+                                                    <Heading>
+                                                      <Heading__Elem>
+                                                        <div
+                                                          className="Heading__Elem-cnZfqf bWPBHO"
+                                                        >
+                                                          <LeftPart>
+                                                            <LeftPart__Elem
+                                                              color="#000000"
+                                                              fontSize="10px"
+                                                              fontWeight="bold"
+                                                            >
+                                                              <div
+                                                                className="LeftPart__Elem-hGSHBb kmqJrD"
+                                                                color="#000000"
+                                                                fontSize="10px"
+                                                                fontWeight="bold"
+                                                              >
+                                                                Реализованные
+                                                              </div>
+                                                            </LeftPart__Elem>
+                                                          </LeftPart>
+                                                          <RightPart>
+                                                            <RightPart__Elem
+                                                              color="#1a99f4"
+                                                              fontSize="10px"
+                                                              fontWeight="bold"
+                                                            >
+                                                              <div
+                                                                className="RightPart__Elem-fPzjzk dmMZAp"
+                                                                color="#1a99f4"
+                                                                fontSize="10px"
+                                                                fontWeight="bold"
+                                                              >
+                                                                <ClickWrap__IconWrap
+                                                                  onClick={null}
+                                                                >
+                                                                  <div
+                                                                    className="ClickWrap__IconWrap-hTpmym gOStyf"
+                                                                    onClick={null}
+                                                                  >
+                                                                    0
+                                                                     шт
+                                                                  </div>
+                                                                </ClickWrap__IconWrap>
+                                                              </div>
+                                                            </RightPart__Elem>
+                                                          </RightPart>
+                                                        </div>
+                                                      </Heading__Elem>
+                                                    </Heading>
+                                                    <BarInnerWrap>
+                                                      <BarInnerWrap__Elem
+                                                        background="#cde6f9"
+                                                      >
+                                                        <div
+                                                          className="BarInnerWrap__Elem-dkIQJH gxjYDY"
+                                                        >
+                                                          <Bar
+                                                            percent={0}
+                                                          >
+                                                            <Bar__Elem
+                                                              background="#1a99f4"
+                                                              color="#ffffff"
+                                                              fontSize="10px"
+                                                              fontWeight="bold"
+                                                              percent={0}
+                                                            >
+                                                              <div
+                                                                className="Bar__Elem-ihvZyc heOMjg"
+                                                                color="#ffffff"
+                                                                fontSize="10px"
+                                                                fontWeight="bold"
+                                                              >
+                                                                <LinePercentLabel
+                                                                  stick={true}
+                                                                >
+                                                                  <LinePercentLabel__Elem
+                                                                    background="#1a99f4"
+                                                                    color="#ffffff"
+                                                                    fontSize="10px"
+                                                                    fontWeight="normal"
+                                                                    stick={true}
+                                                                  >
+                                                                    <div
+                                                                      className="LinePercentLabel__Elem-dPsNYh aUxdB"
+                                                                      color="#ffffff"
+                                                                      fontSize="10px"
+                                                                      fontWeight="normal"
+                                                                    >
+                                                                      <Arrow>
+                                                                        <Arrow__Elem
+                                                                          background="#1a99f4"
+                                                                          color="#ffffff"
+                                                                          fontSize="10px"
+                                                                          fontWeight="bold"
+                                                                        >
+                                                                          <div
+                                                                            className="Arrow__Elem-gBccgt dcblil"
+                                                                            color="#ffffff"
+                                                                            fontSize="10px"
+                                                                            fontWeight="bold"
+                                                                          />
+                                                                        </Arrow__Elem>
+                                                                      </Arrow>
+                                                                      0
+                                                                      %
+                                                                    </div>
+                                                                  </LinePercentLabel__Elem>
+                                                                </LinePercentLabel>
+                                                              </div>
+                                                            </Bar__Elem>
+                                                          </Bar>
+                                                        </div>
+                                                      </BarInnerWrap__Elem>
+                                                    </BarInnerWrap>
+                                                  </div>
+                                                </PercentBar>
+                                              </WithTheme(PercentBar)>
+                                            </div>
+                                          </PrecentBar__Wrap>
+                                          <PrecentBar__Wrap
+                                            key="1"
+                                          >
+                                            <div
+                                              className="PrecentBar__Wrap-iBaPQw kxQzfD"
+                                            >
+                                              <WithTheme(PercentBar)
+                                                count={10}
+                                                title="В обороте"
+                                                value={58.8}
+                                                values={null}
+                                              >
+                                                <PercentBar
+                                                  count={10}
+                                                  theme={
+                                                    Object {
+                                                      "PercentBar": Object {
+                                                        "Background": Object {
+                                                          "background": "#cde6f9",
+                                                        },
+                                                        "Bar": Object {
+                                                          "background": "#1a99f4",
+                                                          "color": "#ffffff",
+                                                          "fontSize": "10px",
+                                                          "fontWeight": "bold",
+                                                        },
+                                                        "Heading": Object {
+                                                          "LeftPart": Object {
+                                                            "color": "#000000",
+                                                            "fontSize": "10px",
+                                                            "fontWeight": "bold",
+                                                          },
+                                                          "RightPart": Object {
+                                                            "color": "#1a99f4",
+                                                            "fontSize": "10px",
+                                                            "fontWeight": "bold",
+                                                          },
+                                                          "color": "#000000",
+                                                          "fontSize": "11px",
+                                                          "fontWeight": "normal",
+                                                        },
+                                                        "Label": Object {
+                                                          "background": "#1a99f4",
+                                                          "color": "#ffffff",
+                                                          "fontSize": "10px",
+                                                          "fontWeight": "normal",
+                                                        },
+                                                      },
+                                                    }
+                                                  }
+                                                  title="В обороте"
+                                                  value={58.8}
+                                                  values={null}
+                                                >
+                                                  <div>
+                                                    <Heading>
+                                                      <Heading__Elem>
+                                                        <div
+                                                          className="Heading__Elem-cnZfqf bWPBHO"
+                                                        >
+                                                          <LeftPart>
+                                                            <LeftPart__Elem
+                                                              color="#000000"
+                                                              fontSize="10px"
+                                                              fontWeight="bold"
+                                                            >
+                                                              <div
+                                                                className="LeftPart__Elem-hGSHBb kmqJrD"
+                                                                color="#000000"
+                                                                fontSize="10px"
+                                                                fontWeight="bold"
+                                                              >
+                                                                В обороте
+                                                              </div>
+                                                            </LeftPart__Elem>
+                                                          </LeftPart>
+                                                          <RightPart>
+                                                            <RightPart__Elem
+                                                              color="#1a99f4"
+                                                              fontSize="10px"
+                                                              fontWeight="bold"
+                                                            >
+                                                              <div
+                                                                className="RightPart__Elem-fPzjzk dmMZAp"
+                                                                color="#1a99f4"
+                                                                fontSize="10px"
+                                                                fontWeight="bold"
+                                                              >
+                                                                <ClickWrap__IconWrap
+                                                                  onClick={null}
+                                                                >
+                                                                  <div
+                                                                    className="ClickWrap__IconWrap-hTpmym gOStyf"
+                                                                    onClick={null}
+                                                                  >
+                                                                    10
+                                                                     шт
+                                                                  </div>
+                                                                </ClickWrap__IconWrap>
+                                                              </div>
+                                                            </RightPart__Elem>
+                                                          </RightPart>
+                                                        </div>
+                                                      </Heading__Elem>
+                                                    </Heading>
+                                                    <BarInnerWrap>
+                                                      <BarInnerWrap__Elem
+                                                        background="#cde6f9"
+                                                      >
+                                                        <div
+                                                          className="BarInnerWrap__Elem-dkIQJH gxjYDY"
+                                                        >
+                                                          <Bar
+                                                            percent={58.8}
+                                                          >
+                                                            <Bar__Elem
+                                                              background="#1a99f4"
+                                                              color="#ffffff"
+                                                              fontSize="10px"
+                                                              fontWeight="bold"
+                                                              percent={58.8}
+                                                            >
+                                                              <div
+                                                                className="Bar__Elem-ihvZyc kkOeVl"
+                                                                color="#ffffff"
+                                                                fontSize="10px"
+                                                                fontWeight="bold"
+                                                              >
+                                                                58.8%
+                                                              </div>
+                                                            </Bar__Elem>
+                                                          </Bar>
+                                                        </div>
+                                                      </BarInnerWrap__Elem>
+                                                    </BarInnerWrap>
+                                                  </div>
+                                                </PercentBar>
+                                              </WithTheme(PercentBar)>
+                                            </div>
+                                          </PrecentBar__Wrap>
+                                          <PrecentBar__Wrap
+                                            key="2"
+                                          >
+                                            <div
+                                              className="PrecentBar__Wrap-iBaPQw kxQzfD"
+                                            >
+                                              <WithTheme(PercentBar)
+                                                count={54}
+                                                title="Списанные"
+                                                value={317.6}
+                                                values={
+                                                  Array [
+                                                    Object {
+                                                      "count": 0,
+                                                      "percent": 0,
+                                                      "title": "Порча товара",
+                                                    },
+                                                    Object {
+                                                      "count": 0,
+                                                      "percent": 0,
+                                                      "title": "Хищение товара",
+                                                    },
+                                                    Object {
+                                                      "count": 0,
+                                                      "percent": 0,
+                                                      "title": "Отбор контрольных образцов",
+                                                    },
+                                                    Object {
+                                                      "count": 0,
+                                                      "percent": 0,
+                                                      "title": "Демонстрация на выставках и ярмарках",
+                                                    },
+                                                    Object {
+                                                      "count": 54,
+                                                      "percent": 317.6,
+                                                      "title": "Иное",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                <PercentBar
+                                                  count={54}
+                                                  theme={
+                                                    Object {
+                                                      "PercentBar": Object {
+                                                        "Background": Object {
+                                                          "background": "#cde6f9",
+                                                        },
+                                                        "Bar": Object {
+                                                          "background": "#1a99f4",
+                                                          "color": "#ffffff",
+                                                          "fontSize": "10px",
+                                                          "fontWeight": "bold",
+                                                        },
+                                                        "Heading": Object {
+                                                          "LeftPart": Object {
+                                                            "color": "#000000",
+                                                            "fontSize": "10px",
+                                                            "fontWeight": "bold",
+                                                          },
+                                                          "RightPart": Object {
+                                                            "color": "#1a99f4",
+                                                            "fontSize": "10px",
+                                                            "fontWeight": "bold",
+                                                          },
+                                                          "color": "#000000",
+                                                          "fontSize": "11px",
+                                                          "fontWeight": "normal",
+                                                        },
+                                                        "Label": Object {
+                                                          "background": "#1a99f4",
+                                                          "color": "#ffffff",
+                                                          "fontSize": "10px",
+                                                          "fontWeight": "normal",
+                                                        },
+                                                      },
+                                                    }
+                                                  }
+                                                  title="Списанные"
+                                                  value={317.6}
+                                                  values={
+                                                    Array [
+                                                      Object {
+                                                        "count": 0,
+                                                        "percent": 0,
+                                                        "title": "Порча товара",
+                                                      },
+                                                      Object {
+                                                        "count": 0,
+                                                        "percent": 0,
+                                                        "title": "Хищение товара",
+                                                      },
+                                                      Object {
+                                                        "count": 0,
+                                                        "percent": 0,
+                                                        "title": "Отбор контрольных образцов",
+                                                      },
+                                                      Object {
+                                                        "count": 0,
+                                                        "percent": 0,
+                                                        "title": "Демонстрация на выставках и ярмарках",
+                                                      },
+                                                      Object {
+                                                        "count": 54,
+                                                        "percent": 317.6,
+                                                        "title": "Иное",
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <div>
+                                                    <Heading>
+                                                      <Heading__Elem>
+                                                        <div
+                                                          className="Heading__Elem-cnZfqf bWPBHO"
+                                                        >
+                                                          <LeftPart>
+                                                            <LeftPart__Elem
+                                                              color="#000000"
+                                                              fontSize="10px"
+                                                              fontWeight="bold"
+                                                            >
+                                                              <div
+                                                                className="LeftPart__Elem-hGSHBb kmqJrD"
+                                                                color="#000000"
+                                                                fontSize="10px"
+                                                                fontWeight="bold"
+                                                              >
+                                                                Списанные
+                                                              </div>
+                                                            </LeftPart__Elem>
+                                                          </LeftPart>
+                                                          <RightPart>
+                                                            <RightPart__Elem
+                                                              color="#1a99f4"
+                                                              fontSize="10px"
+                                                              fontWeight="bold"
+                                                            >
+                                                              <div
+                                                                className="RightPart__Elem-fPzjzk dmMZAp"
+                                                                color="#1a99f4"
+                                                                fontSize="10px"
+                                                                fontWeight="bold"
+                                                              >
+                                                                <ClickWrap__IconWrap
+                                                                  onClick={[Function]}
+                                                                >
+                                                                  <div
+                                                                    className="ClickWrap__IconWrap-hTpmym gOStyf"
+                                                                    onClick={[Function]}
+                                                                  >
+                                                                    54
+                                                                     шт
+                                                                    <IconWrap__ClickWrap
+                                                                      rotation={false}
+                                                                    >
+                                                                      <div
+                                                                        className="IconWrap__ClickWrap-lfHxpT bjxJlp"
+                                                                      >
+                                                                        <BottomArrow
+                                                                          fill="#212C42"
+                                                                          height="6"
+                                                                          viewBox="0 0 10 6"
+                                                                          width="10"
+                                                                          xmlns="http://www.w3.org/2000/svg"
+                                                                        >
+                                                                          <svg
+                                                                            fill="#212C42"
+                                                                            height="6"
+                                                                            viewBox="0 0 10 6"
+                                                                            width="10"
+                                                                            xmlns="http://www.w3.org/2000/svg"
+                                                                          >
+                                                                            <path
+                                                                              clipRule="evenodd"
+                                                                              d="M9.669 1.887a1.087 1.087 0 0 0 0-1.563 1.145 1.145 0 0 0-1.596 0L4.999 3.332 1.927.324a1.145 1.145 0 0 0-1.596 0 1.087 1.087 0 0 0 0 1.563l3.87 3.79c.222.215.51.323.798.323.29 0 .578-.108.799-.324l3.87-3.79z"
+                                                                              fillRule="evenodd"
+                                                                            />
+                                                                          </svg>
+                                                                        </BottomArrow>
+                                                                      </div>
+                                                                    </IconWrap__ClickWrap>
+                                                                  </div>
+                                                                </ClickWrap__IconWrap>
+                                                              </div>
+                                                            </RightPart__Elem>
+                                                          </RightPart>
+                                                        </div>
+                                                      </Heading__Elem>
+                                                    </Heading>
+                                                    <BarInnerWrap>
+                                                      <BarInnerWrap__Elem
+                                                        background="#cde6f9"
+                                                      >
+                                                        <div
+                                                          className="BarInnerWrap__Elem-dkIQJH gxjYDY"
+                                                        >
+                                                          <Bar
+                                                            percent={317.6}
+                                                          >
+                                                            <Bar__Elem
+                                                              background="#1a99f4"
+                                                              color="#ffffff"
+                                                              fontSize="10px"
+                                                              fontWeight="bold"
+                                                              percent={317.6}
+                                                            >
+                                                              <div
+                                                                className="Bar__Elem-ihvZyc gfmKnx"
+                                                                color="#ffffff"
+                                                                fontSize="10px"
+                                                                fontWeight="bold"
+                                                              >
+                                                                317.6%
+                                                              </div>
+                                                            </Bar__Elem>
+                                                          </Bar>
+                                                        </div>
+                                                      </BarInnerWrap__Elem>
+                                                    </BarInnerWrap>
+                                                  </div>
+                                                </PercentBar>
+                                              </WithTheme(PercentBar)>
+                                            </div>
+                                          </PrecentBar__Wrap>
+                                        </PrecentBar>
+                                      </div>
+                                    </InnerColumn__Inner>
+                                  </div>
+                                </OuterColumn__Elem>
+                              </OuterColumn>
+                            </Column>
+                          </WithTheme(Column)>
+                        </div>
+                      </OuterContainer__Elem>
+                    </OuterContainer>
+                  </Container>
+                </WithTheme(Container)>
+              </div>
+            </CardWrap__Elem>
+          </CardWrap>
+        </Card>
+      </WithTheme(Card)>
+    </div>
+  </CardLine>
+</Charts>
+`;
